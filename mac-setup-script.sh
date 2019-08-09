@@ -10,10 +10,13 @@ echo "Installing brew..."
 # Formulae
 echo "Installing Formulae from Homebrew"
 brew install git
-brew install nvm
 brew install zsh 
 brew install amazon-ecs-cli
 brew install maven 
+
+# nvm 
+echo "Installing nvm"
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
 # node
 echo "Installing node"

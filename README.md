@@ -13,19 +13,26 @@ This is a bash script for setting up new mac computers.
 
 ## Here's what you get:
 
-### curl files
+### curl
 - HomeBrew
 - Oh My Zsh
+- nvm
+
+### nvm install
+- node (includes npm)
 
 ### brew formulae
 - git
-- node (includes npm by default)
+- zsh
 - amazon-ecs-cli
 - maven
 
 ### npm packages
+- typescript
 - @angular/cli
-- zsh
+- prettier
+- eslint
+- npx
 
 ### brew casks (applications)
 - slack
