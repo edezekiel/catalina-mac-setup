@@ -1,4 +1,4 @@
-# ubi-mac-setup
+# mac-setup
 
 This is a bash script for setting up new mac computers.
 
@@ -8,8 +8,8 @@ This is a bash script for setting up new mac computers.
 - Make sure your mac is connected to github - [instructions](https://help.github.com/en/articles/set-up-git)
 - Open your terminal.
 - Navigate to user directory: `cd ~`
-- Clone repo: `git clone git@github.com:edezekiel/ubi-mac-setup.git`
-- Enter command: `cd ubi-mac-setup && chmod +x ./ubi-mac-setup-script.sh && ./ubi-mac-setup-script.sh`
+- Clone repo: `git clone git@github.com:edezekiel/mac-setup.git`
+- Enter command: `cd mac-setup && chmod +x ./mac-setup-script.sh && ./mac-setup-script.sh`
 
 ## Here's what you get:
 

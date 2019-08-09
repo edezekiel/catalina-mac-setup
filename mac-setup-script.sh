@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Homebrew Script for OSX
-# To execute: save and `chmod +x ./ubi-mac-setup-script.sh` then `./ubi-mac-setup-script.sh`
+# To execute: save and `chmod +x ./mac-setup-script.sh` then `./mac-setup-script.sh`
 
 # HomeBrew
 echo "Installing brew..."
