@@ -39,3 +39,6 @@ brew cask install google-chrome
 brew cask install dropbox
 brew cask install spotify
 brew cask install notion
+
+# configuring zsh profile
+cat ./zshrc > ~/.zshrc
