@@ -10,14 +10,22 @@ echo "Installing brew..."
 # Formulae
 echo "Installing Formulae from Homebrew"
 brew install git
-brew install node
+brew install nvm
+brew install zsh 
 brew install amazon-ecs-cli
 brew install maven 
 
+# node
+echo "Installing node"
+nvm install node
+
 # npm 
 echo "Installing npm packages"
+npm install -g typescript
 npm install -g @angular/cli
-npm install zsh
+npm install -g prettier
+npm install -g eslint
+npm install -g npx
 
 # Oh My Zsh
 echo "Install Oh My Zsh"
