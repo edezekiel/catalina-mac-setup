@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Homebrew Script for OSX
+# Script for setting up Macs
 # To execute: save and `chmod +x ./mac-setup-script.sh` then `./mac-setup-script.sh`
 
 # HomeBrew
