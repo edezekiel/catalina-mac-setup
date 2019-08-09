@@ -11,6 +11,7 @@ echo "Installing Formulae from Homebrew"
 brew install git
 brew install node
 brew install amazon-ecs-cli
+brew install maven 
 
 echo "Installing npm packages"
 # npm 
