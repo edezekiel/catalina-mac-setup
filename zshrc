@@ -10,6 +10,13 @@ export ZSH="/Users/${USER}/.oh-my-zsh"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="agnoster"
 
+# Add the following to ~/.zshrc or your desired shell
+# configuration file:
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
+  
 # Set Visual Studio Code to preferred IDE
 # go to vscode, enter CMD + SHIFT + P, type "code" 
 # then click Shell Command: Install 'code' command in PATH.
