@@ -33,7 +33,6 @@ This is a bash script for setting up new mac computers.
 - visual-studio-code
 - adobe-creative-cloud
 - jetbrains-toolbox
-- android-studio
 - kitematic
 - google-chrome
 - dropbox
