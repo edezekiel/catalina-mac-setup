@@ -1,15 +1,34 @@
 # ubi-mac-setup
 
-This is my first step in setting up a new mac computer.
-
-It primarily uses HomeBrew to install fundamental apps and packages (Slack, Zoom, node, Visual Studio Code, etc).
+This is a bash script for setting up new mac computers.
 
 **IF you have already created a .zshrc or .vimrc configuration file, your settings will be lost.**
 
+Here's what you get:
 
-- If you want to make Visual Studio Code your defuault IDE simply follow these instructions:
-  1. Enter this in your terminal: `cd $HOME && open .zshrc`
-  2. Follow the instructions on lines 14 and 15 ("go to vscode, enter CMD + SHIFT ..."
-  2. Uncomment line 16 so it reads `export EDITOR="code -w"
-  3. Save the file (CMD + S)
+- HomeBrew
+- Oh My Zsh
 
+---
+- node
+- amazon-ecs-cli
+---
+- @angular/cli
+- zsh
+---
+- slack
+- iterm2
+- zoom
+- sourcetree
+- postman
+- docker
+- google-drive-file-stream
+- visual-studio-code
+- adobe-creative-cloud
+- jetbrains-toolbox
+- android-studio
+- kitematic
+- google-chrome
+- dropbox
+- spotify
+- notion
