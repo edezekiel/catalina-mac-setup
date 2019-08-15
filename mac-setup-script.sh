@@ -58,3 +58,9 @@ touch ~/.zshrc
 touch ~/.vimrc
 cat ./zshrc > ~/.zshrc
 cat ./vimrc > ~/.vimrc
+
+# git config
+# ```git branch``` command displays branches in terminal instead of editor. 
+git config --global pager.branch false
+# sets the default editor to VS Code instead of vim.
+git config --global core.editor code -w
