@@ -10,7 +10,6 @@ echo "Installing brew..."
 # Formulae
 echo "Installing Formulae from Homebrew"
 brew install git
-brew install zsh 
 brew install amazon-ecs-cli
 brew install maven 
 
@@ -30,16 +29,12 @@ npm install -g prettier
 npm install -g eslint
 npm install -g npx
 
-# Oh My Zsh
-echo "Install Oh My Zsh"
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 # Casks
 echo "Installing Casks from Homebrew"
 brew cask install slack
-brew cask install iterm2
 brew cask install graphql-playground
 brew cask install zoom
+brew cask install spectacle
 brew cask install sourcetree
 brew cask install google-drive-file-stream
 brew cask install visual-studio-code
@@ -53,15 +48,22 @@ brew cask install notion
 brew cask install postman
 brew cask install docker
 
-# zsh and vim
-echo "Setting up zsh and vim"
-touch ~/.zshrc
+# vim
+echo "Setting up vim"
 touch ~/.vimrc
-cat ./zshrc > ~/.zshrc
 cat ./vimrc > ~/.vimrc
 
 # git config
+echo "Creating sane global git configs"
 # ```git branch``` command displays branches in terminal instead of editor. 
 git config --global pager.branch false
 # sets the default editor to VS Code instead of vim.
 git config --global core.editor code -w
+
+# zsh and oh-my-zsh
+echo "Setting up zsh, iTerm2, and oh-my-zsh"
+brew install zsh
+brew cask install iTerm2
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+cat ./zshrc > ~/.zshrc
+touch ~/.zshrc
