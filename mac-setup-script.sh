@@ -28,6 +28,9 @@ npm install -g @angular/cli
 npm install -g prettier
 npm install -g eslint
 npm install -g npx
+npm install -g apollo-boost
+npm install -g react-apollo
+npm install -g graphql
 
 # Casks
 echo "Installing Casks from Homebrew"
