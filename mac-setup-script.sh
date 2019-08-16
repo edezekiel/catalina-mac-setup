@@ -31,6 +31,7 @@ npm install -g npx
 npm install -g apollo-boost
 npm install -g react-apollo
 npm install -g graphql
+npm install -g prisma
 
 # Casks
 echo "Installing Casks from Homebrew"
