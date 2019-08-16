@@ -38,6 +38,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 echo "Installing Casks from Homebrew"
 brew cask install slack
 brew cask install iterm2
+brew cask install graphql-playground
 brew cask install zoom
 brew cask install sourcetree
 brew cask install google-drive-file-stream
