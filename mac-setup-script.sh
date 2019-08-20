@@ -63,6 +63,8 @@ echo "Creating sane global git configs"
 git config --global pager.branch false
 # sets the default editor to VS Code instead of vim.
 git config --global core.editor code -w
+# make git diff print to stdout instead of pulling up vim.
+git config pager.diff false 
 
 # zsh and oh-my-zsh
 echo "Setting up zsh, iTerm2, and oh-my-zsh"
