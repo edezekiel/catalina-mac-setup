@@ -37,6 +37,7 @@ This is a bash script for setting up new mac computers.
 ### brew casks (applications)
 - slack
 - iterm2
+- graphql-playground
 - zoom
 - sourcetree
 - postman
