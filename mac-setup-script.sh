@@ -12,6 +12,7 @@ echo "Installing Formulae from Homebrew"
 brew install git
 brew install amazon-ecs-cli
 brew install maven 
+brew install hub
 
 # nvm 
 echo "Installing nvm"
