@@ -98,10 +98,10 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Aliases
+alias zshconfig='vim ~/.zshrc'
+alias vimconfig='vim ~/.vimrc'
 
 # Hide the "user@hostname"
 # See https://github.com/agnoster/agnoster-zsh-theme/issues/39
@@ -110,3 +110,4 @@ prompt_context() {
     # prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
   fi
 }
+
