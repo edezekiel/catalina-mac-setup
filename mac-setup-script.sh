@@ -29,19 +29,13 @@ npm install -g @angular/cli
 npm install -g prettier
 npm install -g eslint
 npm install -g npx
-npm install -g apollo-boost
-npm install -g react-apollo
-npm install -g graphql
 npm install -g prisma
-npm install -g graphql-cli
 
 # Casks
 echo "Installing Casks from Homebrew"
 brew cask install slack
-brew cask install graphql-playground
 brew cask install zoom
 brew cask install spectacle
-brew cask install sourcetree
 brew cask install google-drive-file-stream
 brew cask install visual-studio-code
 brew cask install adobe-creative-cloud
@@ -50,9 +44,12 @@ brew cask install kitematic
 brew cask install google-chrome
 brew cask install dropbox
 brew cask install spotify
-brew cask install notion
 brew cask install postman
 brew cask install docker
+brew cask install trello
+brew cask install sensiblesidebuttons
+brew cask install intellij-idea
+brew cask install datagrip
 
 # vim
 echo "Setting up vim"
