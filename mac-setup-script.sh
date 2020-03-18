@@ -12,7 +12,6 @@ echo "Installing Formulae from Homebrew"
 brew install git
 brew install amazon-ecs-cli
 brew install maven 
-brew install hub
 
 # nvm 
 echo "Installing nvm"
@@ -30,6 +29,8 @@ npm install -g prettier
 npm install -g eslint
 npm install -g npx
 npm install -g prisma
+npm install -g http-server
+npm install -g json-server 
 
 # Casks
 echo "Installing Casks from Homebrew"
