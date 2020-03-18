@@ -10,6 +10,9 @@ export ZSH="/Users/${USER}/.oh-my-zsh"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="agnoster"
 
+# Set default Java version to 1.8.0_152
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8.0_152)
+
 # Add the following to ~/.zshrc or your desired shell
 # configuration file:
 
