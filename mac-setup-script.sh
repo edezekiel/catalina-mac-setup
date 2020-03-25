@@ -66,5 +66,5 @@ git config pager.diff false
 echo "Setting up iTerm2 and oh-my-zsh"
 brew cask install iTerm2
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-cat ./zshrc > ~/.zshrc
 touch ~/.zshrc
+cat ./zshrc > ~/.zshrc
