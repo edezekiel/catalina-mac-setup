@@ -9,4 +9,4 @@ This is a bash script for setting up new mac computers.
 - Click the "Clone or download" button in GitHub. Click "Download ZIP".
 - Unzip mac-setup and move it to your user director.
 - Navigate to your user directory: `cd ~`
-- Enter command: `cd mac-setup && chmod +x ./mac-setup-script.sh && ./mac-setup-script.sh`
+- Enter command: `cd mac-setup-master && chmod +x ./mac-setup-script.sh && ./mac-setup-script.sh`
