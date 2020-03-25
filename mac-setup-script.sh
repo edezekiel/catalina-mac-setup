@@ -5,7 +5,7 @@
 
 # HomeBrew
 echo "Installing brew..."
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # Formulae
 echo "Installing Formulae from Homebrew"
