@@ -5,7 +5,7 @@
 
 # HomeBrew
 echo "Installing brew..."
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)
 
 # Formulae
 echo "Installing Formulae from Homebrew"
@@ -26,9 +26,7 @@ echo "Installing npm packages"
 npm install -g typescript
 npm install -g @angular/cli
 npm install -g prettier
-npm install -g eslint
 npm install -g npx
-npm install -g prisma
 npm install -g http-server
 npm install -g json-server 
 
@@ -37,7 +35,6 @@ echo "Installing Casks from Homebrew"
 brew cask install slack
 brew cask install zoom
 brew cask install spectacle
-brew cask install google-drive-file-stream
 brew cask install visual-studio-code
 brew cask install adobe-creative-cloud
 brew cask install jetbrains-toolbox
@@ -47,7 +44,6 @@ brew cask install dropbox
 brew cask install spotify
 brew cask install postman
 brew cask install docker
-brew cask install trello
 brew cask install sensiblesidebuttons
 brew cask install intellij-idea
 brew cask install datagrip
@@ -66,9 +62,8 @@ git config --global core.editor code -w
 # make git diff print to stdout instead of pulling up vim.
 git config pager.diff false 
 
-# zsh and oh-my-zsh
-echo "Setting up zsh, iTerm2, and oh-my-zsh"
-brew install zsh
+# iTerm2 and oh-my-zsh. zsh is installed by default from OS Catalina onwards.
+echo "Setting up iTerm2 and oh-my-zsh"
 brew cask install iTerm2
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 cat ./zshrc > ~/.zshrc
