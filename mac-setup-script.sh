@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# Script for setting up Macs
-# To execute: save and `chmod +x ./mac-setup-script.sh` then `./mac-setup-script.sh`
-
 # HomeBrew
 echo "Installing brew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
@@ -45,9 +42,8 @@ git config --global core.editor code -w
 # make git diff print to stdout instead of pulling up vim.
 git config pager.diff false 
 
-# zshrc
-echo "Installing template zshrc file"
-cat ./zshrc > ~/.zshrc
+# oh-my-zsh --unattended (otherwise script will exit immediately after install)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 # nvm
 echo "Installing nvm"
