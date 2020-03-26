@@ -62,9 +62,9 @@ git config --global core.editor code -w
 # make git diff print to stdout instead of pulling up vim.
 git config pager.diff false 
 
-# iTerm2 and oh-my-zsh. zsh is installed by default from OS Catalina onwards.
+# oh-my-zsh and iTerm2. zsh is installed on Catalina by default.
 echo "Setting up iTerm2 and oh-my-zsh"
 brew cask install iTerm2
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-touch ~/.zshrc
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+echo "Installing Ubiquisoft templace zshrc file"
 cat ./zshrc > ~/.zshrc
