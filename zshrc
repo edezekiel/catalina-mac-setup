@@ -8,18 +8,15 @@ export ZSH="/Users/${USER}/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="robbyrussell"
 
 # Set default Java version to 1.8.0_152
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8.0_152)
+# export JAVA_HOME=$(/usr/libexec/java_home -v 1.8.0_152)
 
-# Add the following to ~/.zshrc or your desired shell
-# configuration file:
+# nvm
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
-  
 # Set Visual Studio Code to preferred IDE
 # go to vscode, enter CMD + SHIFT + P, type "code" 
 # then click Shell Command: Install 'code' command in PATH.
@@ -113,4 +110,3 @@ prompt_context() {
     # prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
   fi
 }
-
