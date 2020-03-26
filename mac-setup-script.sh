@@ -66,5 +66,5 @@ git config pager.diff false
 echo "Setting up iTerm2 and oh-my-zsh"
 brew cask install iTerm2
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-echo "Installing Ubiquisoft templace zshrc file"
+echo "Installing templace zshrc file"
 cat ./zshrc > ~/.zshrc
