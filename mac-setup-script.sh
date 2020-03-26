@@ -13,40 +13,23 @@ brew install git
 brew install amazon-ecs-cli
 brew install maven 
 
-# nvm 
-echo "Installing nvm"
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
-
-# node
-echo "Installing node"
-nvm install node
-
-# npm 
-echo "Installing npm packages"
-npm install -g typescript
-npm install -g @angular/cli
-npm install -g prettier
-npm install -g npx
-npm install -g http-server
-npm install -g json-server 
-
 # Casks
 echo "Installing Casks from Homebrew"
 brew cask install slack
 brew cask install zoom
-brew cask install spectacle
 brew cask install visual-studio-code
 brew cask install adobe-creative-cloud
 brew cask install jetbrains-toolbox
 brew cask install kitematic
 brew cask install google-chrome
 brew cask install dropbox
-brew cask install spotify
 brew cask install postman
 brew cask install docker
-brew cask install sensiblesidebuttons
 brew cask install intellij-idea
 brew cask install datagrip
+brew cask install spectacle
+brew cask install iTerm2
+brew cask install sensiblesidebuttons
 
 # vim
 echo "Setting up vim"
@@ -62,9 +45,10 @@ git config --global core.editor code -w
 # make git diff print to stdout instead of pulling up vim.
 git config pager.diff false 
 
-# oh-my-zsh and iTerm2. zsh is installed on Catalina by default.
-echo "Setting up iTerm2 and oh-my-zsh"
-brew cask install iTerm2
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-echo "Installing templace zshrc file"
+# zshrc
+echo "Installing template zshrc file"
 cat ./zshrc > ~/.zshrc
+
+# nvm
+echo "Installing nvm"
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
